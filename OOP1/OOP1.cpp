@@ -36,3 +36,17 @@ public:
 	}
 };
 
+int main() {
+	Mahasiswa mhs;
+	Matakuliah mk;
+
+	mhs.nama = "Budi";
+	mhs.umur = 20;
+	mhs.jurusan = "Teknik Informatika";
+	mhs.output();
+
+	mk.input();
+	mk.output();
+
+	return 0;
+}
